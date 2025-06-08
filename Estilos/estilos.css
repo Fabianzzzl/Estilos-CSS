@@ -1,3 +1,26 @@
 body{
     background-color: #f5f9ff;
 }
+h1{
+    color: #003366 ;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h2{
+    color: #483D8B;
+    font-size: 26px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    background-color: #e8f6f3;
+            padding: 20px 20px 20px 40px;
+            border-left: 5px solid #1abc9c;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+        li {
+            margin-bottom: 10px;
+        }
