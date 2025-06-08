@@ -14,6 +14,55 @@
         <h2>¿Qué Son?</h2>
            <p>Las normas BEM (Block, Element, Modifier) y CamelCase son dos convenciones de nomenclatura que se utilizan en el desarrollo web, especialmente en CSS. La BEM es una  metodología para organizar clases CSS de forma modular, mientras que el CamelCase es una forma de escribir nombres de variables, funciones, etc. donde la primera letra de cada palabra (excepto la primera) se escribe en mayúscula, sin espacios.</p>
     </div>
+    <div class="seccion">
+           <h2>BEM (Block, Element, Modifier):</h2>
+           <ul>
+            <li>Block: Un componente independiente reutilizable, como un formulario o un botón.</li>
+            <li>Element: Una parte interna de un bloque, como el título de un formulario o el icono de un botón.</li>
+            <li>Modifier: Una clase que modifica el estilo o el comportamiento de un bloque o un elemento.</li>
+           </ul>
+    </div>
+    <div class="seccion">
+           <h2>El camelCase:</h2>
+           <ul>
+            <li>Es una convención de escritura que une dos o más palabras sin espacios, utilizando la primera letra de cada palabra en mayúscula, excepto la primera, que comienza con minúscula.</li>
+            <li>Se usa comúnmente para nombrar variables, funciones y otras entidades en lenguajes de programación.</li>
+           </ul>
+    </div>
+    <div class="seccion">
+           <h2>¿Para Que Sirven?</h2>
+           <p>► BEM (Block, Element, Modifier) sirve para:</p>
+           <ul>
+            <li>Organizar el código CSS de forma modular y reutilizable.</li>
+            <li>Identificar fácilmente a qué parte del diseño corresponde cada clase.</li>
+            <li>Evitar conflictos de nombres en CSS (por ejemplo, que dos .titulo diferentes se mezclen).</li>
+            <li>Facilitar el mantenimiento y escalabilidad de proyectos grandes.</li>
+           </ul>
+           <p>► El camelCase sirve para:</p>
+           <ul>
+            <li>Mejora la legibilidad: Permite identificar las palabras individuales dentro de un nombre, facilitando su comprensión.</li>
+            <li>Es una convención común: Muchos lenguajes de programación y frameworks web la utilizan.</li>
+            <li>Facilita la escritura: Evita la necesidad de usar guiones bajos o espacios para separar palabras.</li>
+           </ul>
+    </div>
+    <div class="seccion">
+           <h2>Como Usarlos Correctamente</h2>
+           <p>► BEM se basa en tres componentes:</p>
+           <ul>
+            <li><b>Bloque (Block):</b></li>
+            <p>Representa un componente independiente de la interfaz de usuario, como un formulario, un menú de navegación, una tarjeta, etc. Los bloques suelen tener un nombre descriptivo que refleja su función, como <i>form, navigation, o card.</i></p>
+            <li><b>Elemento (Element):</b></li>
+            <p>Es un componente interno de un bloque, como un título dentro de una tarjeta, o el input de un campo de texto en un formulario. Los elementos se nombran utilizando el nombre del bloque, seguido de dos guiones bajos (__) y el nombre del elemento, por ejemplo, <i>card__title o form__input.</i></p>
+            <li><b>Modificador (Modifier):</b></li>
+            <p>Permite modificar la apariencia o el comportamiento de un bloque o elemento sin duplicar el código CSS. Se utiliza para crear variantes de un bloque o elemento, como un botón principal, un botón secundario o un botón desactivado. Los modificadores se nombran utilizando el nombre del bloque o elemento, seguido de dos guiones (--) y el nombre del modificador, por ejemplo, <i>button--primary o form__input--error.</i></p>
+            <p>► CamelCase es una convención para nombrar variables, funciones y métodos en programación, donde la primera letra de cada palabra (excepto la primera) se escribe en mayúscula y las palabras se concatenan sin espacios.</p>
+           <p>En detalle:</p>
+           <ul>
+            <li><b>Primer palabra:</b>La primera palabra se escribe con la primera letra en minúscula y el resto de las letras en minúscula.</li>
+            <li><b>Palabras siguientes:</b>La primera letra de cada palabra subsiguiente se escribe en mayúscula.</li>
+            <li><b>Sin espacios: </b>Las palabras se unen directamente sin espacios ni guiones bajos.</li>
+           </ul>
+    </div>
 
 </body>
 </html>
